@@ -113,9 +113,14 @@ if (nom === nombreVip) {
         alert("Gracias por su visita " + nom);
     }
 } else {let comprarEntrada = prompt("¿desea comprar su entrada?(si/no)")
-    else if (comprarEntrada === no) {
-     alert("Gracias por su visita " + nom);
-}
+    if (comprarEntrada === "si") {
+        let dinero = prompt("¿Cuanto dinero tienes disponible?")
+        if (dinero >= 1000) {
+            alert("Bienvenido " + nom)
+        }
+    } else {
+        alert("Gracias por su visita " + nom);
+    }  
 }
 
 
