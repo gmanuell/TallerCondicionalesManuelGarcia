@@ -158,28 +158,120 @@
 //noveno ejercicio 
 
 
-let edadIngresada = parseInt(prompt("ingrese su edad"))
+// let edadIngresada = parseInt(prompt("ingrese su edad"))
 
-if (edadIngresada <= "12") {
-    alert("Perteneces a la categoria infante")
-} else {
-  if (edadIngresada >= "13" && edadIngresada <= "18") {
-      alert("Perteneces a la categoria adolecente")
-     }  else {
-        if (edadIngresada >= "19" && edadIngresada <= "44") {
-            alert("Perteneces a la categoria mayor joven")
-           }  else {
-            if (edadIngresada >= "45" && edadIngresada <= "99") {
-                alert("Perteneces a la categoria anciano")
-               }   else {
-                if (edadIngresada >= "100") {
-                    alert("¿10esta seguro que su edad es mayor a 100años?")
-                   } 
-                }
-            }
-        }
-} 
+// if (edadIngresada <= "12") {
+//     alert("Perteneces a la categoria infante")
+// } else {
+//   if (edadIngresada >= "13" && edadIngresada <= "18") {
+//       alert("Perteneces a la categoria adolecente")
+//      }  else {
+//         if (edadIngresada >= "19" && edadIngresada <= "44") {
+//             alert("Perteneces a la categoria mayor joven")
+//            }  else {
+//             if (edadIngresada >= "45" && edadIngresada <= "99") {
+//                 alert("Perteneces a la categoria anciano")
+//                }   else {
+//                 if (edadIngresada >= "100") {
+//                     alert("¿esta seguro que su edad es mayor a 100años?")
+//                    } 
+//                 }
+//             }
+//         }
+// } 
 
+//decimo ejercicio 
+
+// let jugador1 = prompt("jugador 1 ingrese piedra/papel/tijera")
+// let jugador2 = prompt("jugador 2 ingrese piedra/papel/tijera")
+
+// if (jugador1 === jugador2) {
+//     alert("empate");
+// } else if (jugador1 === "piedra") {
+//     if (jugador2 === "papel") {
+//     alert("gana el jugador 2")   
+//     } else if (jugador2 === "tijera") {
+//     alert("gana jugador 1")
+//     } else {
+//        alert("Jugador 2 esta haciendo trampa") 
+//     }
+// } else if (jugador1 === "papel") {
+//     if (jugador2 === "piedra") {
+//         alert("gana el jugador 1")   
+//         } else if (jugador2 === "tijera") {
+//         alert("gana jugador 2")
+//         } else {
+//            alert("Jugador 2 esta haciendo trampa") 
+//         }
+// } else if (jugador1 === "tijera") {
+//     if (jugador2 === "piedra") {
+//         alert("gana el jugador 2")   
+//         } else if (jugador2 === "papel") {
+//         alert("gana jugador 1")
+//         } else {
+//            alert("Jugador 2 esta haciendo trampa") 
+//         }
+// } else {
+//     alert("jugador 1 hace trampa")
+// }
+
+// decimo primer ejercicio 
+
+// let color = prompt("Ingrese un color")
+
+// switch (color) {
+//     case "blanco":
+//         alert("Falta de color");
+//         break;
+//     case "negro":
+//         alert("Falta de color");
+//         break;
+//     case "verde":
+//         alert("El color de la naturaleza");
+//         break;
+//     case "azul":
+//         alert("El color del agua");
+//         break;
+//     case "amarillo":
+//         alert("El color del sol");
+//         break;
+//     case "rojo":
+//         alert("El color del fuego");
+//         break;
+//     case "marron":
+//         alert("El color de la tierra");
+//         break;
+//     default:
+//         alert("Excelente elección, no lo teníamos pensado");
+//         break;
+//     }
+
+// decimo segundo ejercicio
+
+let aa = parseInt(prompt("Ingrese primer numero"))
+let bb = parseInt(prompt("Ingrese segundo numero"))
+let operacion = prompt("Ingrese la operación que desea realizar (suma/resta/producto/división)")
+
+if (operacion == "suma") {
+    let suma = aa + bb
+    alert("el resultado de la operacion " + operacion + " es: " + suma)
+} else if (operacion == "resta") {
+    let resta = aa - bb
+    alert("el resultado de la operacion " + operacion + " es: " + resta)
+} else if (operacion == "producto") {
+    let producto = aa * bb
+    alert("el resultado de la operacion " + operacion + " es: " + producto)
+} else if (operacion == "division") {
+    let division = aa / bb
+
+    if ((aa === 0) || (valor2 ===0)){
+        alert("ERROR")
+    } else {
+        alert("el resultado de la operacion " + operacion + " es: " + division)
+    }
+} else{
+    alert("La operacion que desea realizar no se encuentra disponible")
+}
 
 
 // decimo tercer ejercicio 
